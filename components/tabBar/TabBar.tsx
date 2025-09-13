@@ -47,7 +47,7 @@ export default function TabBar({ state, descriptors, navigation }: BottomTabBarP
             onLongPress={onLongPress}
             className="p-4"
           >
-            <Text>{label}</Text>
+            <Text>{label.toString()}</Text>
           </TouchableOpacity>
         );
       })}
